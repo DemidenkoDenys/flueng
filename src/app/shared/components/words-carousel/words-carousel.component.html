@@ -1,0 +1,7 @@
+<ul class="choice-list">
+  <ng-container *ngFor="let word of words; let index = index">
+    <li class="choice-item" [ngClass]="getSize(index)" [style.top.px]="getTop(index)">
+      <span (click)="onWordClicked(index)">{{ word }}</span>
+    </li>
+  </ng-container>
+</ul>

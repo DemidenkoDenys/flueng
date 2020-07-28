@@ -1,0 +1,33 @@
+.choice-list {
+  position: relative;
+  font-size: 5vh;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.choice-item {
+  position: absolute;
+  transition: 0.3s;
+  transform: translate(-50%, -50%);
+
+  span {
+    cursor: pointer;
+
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
+.item-1-0 { opacity: 1; font-size: 1.5em; color: green; }
+.item-0-9 { opacity: .9; font-size: .9em; }
+.item-0-8 { opacity: .8; font-size: .8em; }
+.item-0-7 { opacity: .7; font-size: .7em; }
+.item-0-6 { opacity: .6; font-size: .6em; }
+.item-0-5 { opacity: .5; font-size: .5em; }
+.item-0-4 { opacity: .4; font-size: .4em; }
+.item-0-3 { opacity: .3; font-size: .3em; }
+.item-0-2 { opacity: .2; font-size: .2em; }
+.item-0-1 { opacity: .1; font-size: .1em; }
+.item-0-0 { opacity: 0; font-size: 0em; }
